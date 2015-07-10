@@ -7,7 +7,7 @@ import java.net.URLConnection;
 
 public class APITest{
 	public static void main(String[] args) throws IOException{
-		URL url = new URL("http://download.finance.yahoo.com/d/quotes.csv?s=BA");
+		URL url = new URL("http://download.finance.yahoo.com/d/quotes.csv?s=%40%5EDJI,GOOG");
 		URLConnection con = url.openConnection();
 		InputStream is = con.getInputStream();
 		
