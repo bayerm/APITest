@@ -5,9 +5,9 @@ import java.io.InputStreamReader;
 import java.net.URL;
 import java.net.URLConnection;
 
-class APITest{
+public class APITest{
 	public static void main(String[] args) throws IOException{
-		URL url = new URL("http://download.finance.yahoo.com/d/quotes.csv?s=BA");
+		URL url = new URL("http://stackoverflow.com/questions/6159118/using-java-to-pull-data-from-a-webpage");
 		URLConnection con = url.openConnection();
 		InputStream is = con.getInputStream();
 		
