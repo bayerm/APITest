@@ -7,7 +7,7 @@ import java.net.URLConnection;
 
 public class APITest{
 	public static void main(String[] args) throws IOException{
-		URL url = new URL("http://stackoverflow.com/questions/6159118/using-java-to-pull-data-from-a-webpage");
+		URL url = new URL("http://download.finance.yahoo.com/d/quotes.csv?s=BA");
 		URLConnection con = url.openConnection();
 		InputStream is = con.getInputStream();
 		
